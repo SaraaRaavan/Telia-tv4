@@ -1,0 +1,31 @@
+.video-player {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px #bfbfbf;
+}
+
+.selected {
+  box-shadow: 5px 5px 5px #4a4a4a;
+}
+
+.video-list {
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  grid-gap: 10px;
+  margin-top: 20px;
+  padding: 0;
+  list-style-type: none;
+}
+
+@media (max-width: 640px) {
+  .video-list {
+    grid-template-columns: 32% 32% 32%;
+  }
+}
+
+@media (max-width: 480px) {
+  .video-list {
+    grid-template-columns: 49% 49%;
+  }
+}

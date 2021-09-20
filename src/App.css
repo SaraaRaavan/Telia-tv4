@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  margin: 10px;
+}
+
+.player {
+  position: relative;
+}
+
+video {
+  width: 100%;
+  height: 400px;
+}
+
+.list-item {
+  cursor: pointer;
+}
+
+.list-item img {
+  max-width: 100%;
+}
+
+.tool-tip {
+  background: white;
+  padding: 5px;
+  max-width: 300px;
+  opacity: 0.9;
+  border-radius: 4px;
+  font-size: 10px;
+}
+
+h4 {
+  margin: 10px;
+}
+
+@media (max-width: 640px) {
+  .tool-tip {
+    max-width: 200px;
+  }
+  video {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  video {
+    height: 200px;
+  }
+}
